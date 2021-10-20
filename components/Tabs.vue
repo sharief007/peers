@@ -5,6 +5,9 @@
         <v-badge :value="item.badge" dot><v-icon left v-text="item.icon"></v-icon>{{ item.title }}</v-badge>
       </v-tab>
     </v-tabs>
+    <v-toolbar>
+        <v-text-field prepend-inner-icon="mdi-magnify" clearable dense rounded filled class="pt-6" placeholder="Search"></v-text-field>
+    </v-toolbar>
     <v-tabs-items v-model="tab">
       <v-tab-item v-for="(item,index) in items" :key="index">
         <ChatList/>

@@ -26,7 +26,7 @@
             </v-card>
         </div>
         </emoji-picker>
-        <v-text-field dense rounded filled class="message-field mt-6" v-model="messageText"></v-text-field>
+        <v-text-field dense rounded filled class="message-field mt-6" v-model="messageText" placeholder="Type your message...."></v-text-field>
         <v-btn icon>
         <v-icon>mdi-send</v-icon>
         </v-btn>

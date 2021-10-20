@@ -8,6 +8,7 @@
         </v-btn>
         <v-toolbar-title>Sharief</v-toolbar-title>
         <v-spacer></v-spacer>
+        <Call/>
         <v-speed-dial direction="bottom">
             <template v-slot:activator>
               <v-btn icon><v-icon>mdi-attachment</v-icon></v-btn>
@@ -41,8 +42,13 @@
 </template>
 
 <script>
+import Call from "@/components/Call.vue";
+
 export default {
     name: 'ChatHeader',
+    components: {
+      Call
+    },
     data() {
       return {
         menuItems: [

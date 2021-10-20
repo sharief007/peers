@@ -1,8 +1,5 @@
 <template>
-    <v-card>
-      <v-toolbar>
-        <v-text-field prepend-inner-icon="mdi-magnify" clearable dense rounded filled class="pt-6"></v-text-field>
-      </v-toolbar>
+    <!-- <v-card> -->
       <v-list subheader two-line class="overflow-y-auto" height="calc(100vh - 11rem)">
       <v-subheader>Recent Chats</v-subheader>
       <v-list-item v-for="(item,index) in items" :key="index" link>
@@ -18,7 +15,7 @@
         </v-list-item-action>
       </v-list-item>
     </v-list>
-    </v-card>
+    <!-- </v-card> -->
 </template>
 
 <script>

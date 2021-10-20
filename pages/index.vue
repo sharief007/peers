@@ -12,7 +12,6 @@ import Messages from "@/components/Messages.vue"
 import ChatFooter from "@/components/ChatFooter.vue"
 
 export default {
-    name: 'ChatList',
     components: {
       ChatHeader,
       Messages,
